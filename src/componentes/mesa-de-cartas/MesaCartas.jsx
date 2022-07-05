@@ -1,8 +1,12 @@
 import React from 'react'
+import Carta from '../carta/Carta'
+import './mesaCartas.css'
 
 const MesaCartas = () => {
   return (
-    <div>MesaCartas</div>
+    <div className='mesa__container'>
+      <Carta />
+    </div>
   )
 }
 
