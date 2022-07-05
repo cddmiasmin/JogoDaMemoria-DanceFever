@@ -1,4 +1,72 @@
 .mesa__container {
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.espaco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 520px;
+    height: 389px;
+}
+
+.espaco_cartas {
+    background-color: blueviolet;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.espaco_end_game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.espaco_img_album {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.espaco_img_album img {
+    width: 80%;
+    height: 90%;
+}
+
+.espaco_link_album {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    gap: 10px;
+    opacity: 0%;
+}
+
+.link {
+    width: 20px;
+}
+
+.buttonlink {
+    width: 100%;
+    filter: invert(88%) sepia(86%) saturate(356%) hue-rotate(317deg) brightness(91%) contrast(89%);
+}
+
+.espaco_end_game:hover .espaco_img_album{
+    opacity: 55%;
+}
+
+.espaco_end_game:hover .espaco_link_album{
+    opacity: 100%;
 }
