@@ -7,9 +7,6 @@ import MesaCartas from './componentes/mesa-de-cartas/MesaCartas'
 function App() {
   return (
     <>
-      <p>FLORENCE EU TENHO FAMILY</p>
-      <p>FLORENCE EU TENHO FAMILY</p>
-      <p>FLORENCE EU TENHO FAMILY</p>
       <Cabecalho/>
       <MesaCartas/>
       <Borda/>

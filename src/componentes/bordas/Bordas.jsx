@@ -8,12 +8,12 @@ const Bordas = () => {
             <div className='feito__por'>
                 <p>Denvolvido por</p>
                 <img src="https://raphaelbrodrigues.github.io/images/git.png" alt="Logo GitHub" />
-                <a href="https://github.com/cddmiasmin">/cddmiasmin</a>
+                <a href="https://github.com/cddmiasmin" target="_blank">/cddmiasmin</a>
             </div>
 
             <div className='credito__ftm'>
                 <p>Créditos à </p>
-                <a href="https://florenceandthemachine.net"> Florence And The Machine</a>
+                <a href="https://florenceandthemachine.net" target="_blank"> Florence And The Machine</a>
             </div>
         </div>
     </div>

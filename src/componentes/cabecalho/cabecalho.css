@@ -1,0 +1,12 @@
+.cabecalho__estilo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cabecalho__estilo img {
+    height: 40px;
+    width: 40px;
+}
