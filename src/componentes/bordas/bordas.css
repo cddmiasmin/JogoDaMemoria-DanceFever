@@ -1,7 +1,7 @@
-body {
-    border-top: 8px solid var(--cor-padrao);
-    border-left: 8px solid var(--cor-padrao);
-    border-right: 8px solid var(--cor-padrao);
+.container_geral {
+    border-top: 2px solid var(--cor-padrao);
+    border-left: 2px solid var(--cor-padrao);
+    border-right: 2px solid var(--cor-padrao);
 }
 
 .rodape {
@@ -10,10 +10,12 @@ body {
     justify-content: center;
     color: var(--cor-branca);
     background: var(--cor-padrao);
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 600;
-    height: 45px;
-    margin-top: 10px;
+    height: 36px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
 }
 
 .feito__por {

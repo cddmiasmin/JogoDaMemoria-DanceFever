@@ -7,7 +7,13 @@ const MesaCartas = () => {
     <div className='mesa__container'>
       <div className="espaco">
 
-        <div className="espaco_cartas">
+      <div className={`espaco_cartas ${"D"}`}>
+          <Carta />
+          <Carta />
+          <Carta />
+          <Carta />
+          <Carta />
+          
           <Carta />
           <Carta />
           <Carta />
@@ -36,13 +42,10 @@ const MesaCartas = () => {
           <Carta />
           <Carta />
           <Carta />
-          <Carta />
+          <Carta />   
 
-          <Carta />
-          <Carta />
-          <Carta />
-          <Carta />
-          <Carta />
+          
+
         </div>
 
         <div className='espaco_end_game'>
@@ -51,33 +54,29 @@ const MesaCartas = () => {
           </div>
 
           <div className='espaco_link_album'>
-            <a href="" className='link' target="_blank">
+            <a href="" target="_blank">
               <img
-                className='buttonlink' 
                 src="https://www.svgrepo.com/show/342240/spotify.svg" 
                 alt="Ir para o Spotify" 
               />
             </a>
 
-            <a href="" className='link' target="_blank">
+            <a href="" target="_blank">
               <img
-                className='buttonlink' 
                 src="https://www.svgrepo.com/show/341609/apple-music.svg" 
                 alt="Ir para o Spotify" 
               />
             </a>
 
-            <a href="" className='link' target="_blank">
+            <a href="" target="_blank">
               <img
-                className='buttonlink' 
                 src="https://www.svgrepo.com/show/122166/youtube.svg" 
                 alt="Ir para o Spotify" 
               />
             </a>
 
-            <a href="" className='link' target="_blank">
+            <a href="" target="_blank">
               <img
-                className='buttonlink' 
                 src="https://www.svgrepo.com/show/360325/deezer.svg" 
                 alt="Ir para o Spotify"
               />

@@ -1,12 +1,19 @@
 .carta_container {
     width: 75px;
     height: 70px;
-    perspective: 700px;
+    perspective: 900px;
 }
+
 .carta_container img {
     border-radius: 5px;
     width: 100%;
     height: 100%;
+}
+
+.carta_container::before{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
 }
 
 #front, #back {

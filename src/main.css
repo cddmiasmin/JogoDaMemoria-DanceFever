@@ -12,8 +12,25 @@
     --cor-branca: white;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'EB Garamond', serif;
     background: var(--background);
     color: var(--cor-branca);
+}
+
+.container_geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 2px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
