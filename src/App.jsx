@@ -1,17 +1,16 @@
 import React from 'react'
-import { ReactDOM } from 'react'
-import Borda from './componentes/bordas/Bordas'
-import Cabecalho from './componentes/cabecalho/Cabecalho'
-import MesaCartas from './componentes/mesa-de-cartas/MesaCartas'
-import Modo from './componentes/modo/Modo'
+import {Routes, Route } from 'react-router-dom'
+import Home from './pages/Home.jsx'
+import Jogo from './pages/Jogo.jsx'
+import Pagina404 from './pages/Pagina404.jsx'
 
 function App() {
   return (
-    <div className='container_geral'>
-      <Cabecalho/>
-      <MesaCartas/>
-      <Borda/>
-    </div>
+    <Routes>
+      <Route exact path='/' element={ <Home /> } />
+      <Route path='/jogo' element={ <Jogo /> } />
+      <Route path='*' element={ <Pagina404 /> } />
+    </Routes>
   )
 }
 

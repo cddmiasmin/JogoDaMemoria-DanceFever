@@ -1,0 +1,18 @@
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--cor-escura);
+    margin-top: 10px;
+}
+
+.container a {
+    font-size: x-small;
+    font-weight: 300;
+    text-decoration: none;
+    color: var(--cor-primaria);
+}

@@ -3,19 +3,12 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 90%;
-    height: auto;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
 
-.mesa__container::before{
-    position: absolute;
-    background-color: antiquewhite;
+    padding: 3px;
 }
 
 .espaco {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -47,7 +40,7 @@
 }
 
 .espaco_end_game{
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: relative;

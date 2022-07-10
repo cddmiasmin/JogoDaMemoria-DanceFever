@@ -1,0 +1,28 @@
+.page_jogo {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallpaper {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://user-images.githubusercontent.com/94560372/178158971-b9724cfb-31b9-4b89-9feb-a592c9a08095.png");
+    background-size: contain;
+    opacity: 50%;
+    position: absolute;
+    z-index: 0;
+}
+
+.jogo {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
