@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'font-text', serif;
+    background: var(--cor-escura);
+    color: var(--cor-branca);
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+

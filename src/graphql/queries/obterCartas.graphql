@@ -1,0 +1,9 @@
+query obterCartas {
+  imagens(orderBy: numCarta_ASC) {
+    nomeMusica
+    numCarta
+    img {
+      url
+    }
+  }
+}

@@ -1,0 +1,4 @@
+.stream img {
+    width: 22px;
+    filter: invert(88%) sepia(86%) saturate(356%) hue-rotate(317deg) brightness(91%) contrast(89%);
+}

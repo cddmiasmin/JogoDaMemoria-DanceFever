@@ -1,0 +1,31 @@
+.cartas__container {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 3px;
+}
+
+.cartas {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    height: auto;
+}
+
+.cartas.F {
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+.cartas.M {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+.cartas.D {
+    grid-template-columns: repeat(10, auto);
+    grid-template-rows: repeat(3, auto);
+}

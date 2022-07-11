@@ -1,20 +1,28 @@
 import React from 'react'
-import './home.css'
-import '../styles/fontes.css' 
+import {useNavigate} from 'react-router-dom'
+import './styles/home.css'
+import '../main-styles/fontes.css' 
 import Cabecalho from '../componentes/cabecalho/Cabecalho'  
 import Rodape from '../componentes/rodape/Rodape'
+import { useNivel } from '../hook/useNivel'
 
 function Home() {
 
-  const nivelEscolhido = (id, key) => {
-    const infoNivel = [
-      {
-        "nivel" : `${id}`,
-        "pares" : `${key}`
-      }
-    ]
+  const {
+    nivel,
+    setNivel
+  } = useNivel();
 
-    console.log(infoNivel)
+  const navigate = useNavigate()
+
+  const nivelEscolhido = (id, key) => {
+    setNivel({
+      "nivel":`${id}`,
+      "pares":`${key}`
+    } )
+    
+    console.log(nivel)
+    navigate('/jogo')
   }
 
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import './pagina404.css'
+import './styles/pagina404.css'
 import Rodape from '../componentes/rodape/Rodape'
 import Cabecalho from '../componentes/cabecalho/Cabecalho'  
 

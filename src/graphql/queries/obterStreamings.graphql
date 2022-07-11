@@ -1,0 +1,7 @@
+query obterStreamings {
+  streamings(orderBy: streaming_ASC, stage: PUBLISHED) {
+    icon
+    streaming
+    url
+  }
+}

@@ -1,0 +1,43 @@
+.poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 65%;
+    position: relative;
+    background-color: var(--cor-escura);
+    border-radius: 7px;
+}
+
+.imagem_poster {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.imagem_poster img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.streamings {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    gap: 12px;
+    overflow: hidden;
+    transition: 3s ease;
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.poster:hover .imagem_poster{
+    opacity: 50%;
+    transition: 2s ease;
+}
+
+.poster:hover .streamings {
+    opacity: 100%;
+    transform: translateY(-1px);
+}

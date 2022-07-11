@@ -6,7 +6,7 @@ const Carta = () => {
   return (
     <div className='carta_container'>
         <div id='front'>
-          <img src="https://media.graphassets.com/RZJ18WIT9aD2HifaHsep" alt="Tarô" />
+          <img src="src\assets\imagens\carta-verso.png" alt="Tarô" />
         </div>
 
         <div id='back'>
